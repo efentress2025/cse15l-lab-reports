@@ -22,4 +22,4 @@ Apples and Oranges are `fruits`
 ```
 Fruits are very diverse.
 ```
-[Lab Report 1](https://notweezer123.github.io/cse15l-lab-reports/lab-report-1-week-2)
+[Lab Report 1](lab-report-1-week-2.html)
