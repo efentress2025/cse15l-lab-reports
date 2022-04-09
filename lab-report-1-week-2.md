@@ -1,2 +1,2 @@
-# Lab Report Week 1
+# Lab Report 1, Week 2
 ![image](code.PNG)
