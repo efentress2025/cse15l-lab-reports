@@ -23,4 +23,8 @@ This file caused the initial program to produce the above symptom (i.e. a String
 
 ![image3](Lab_Report_2_Images\test-file4_error.PNG)
 
-This input caused the program to produce a symptom in the form of a "OutOfMemory" error. This error was caused by 
+This input caused the program to produce a symptom in the form of an "OutOfMemory" error. This error was caused by a bug in the program where the "currentIndex" variable would perpetually be 13 - creating an infinite loop. This happens because the currentIndex variable is used to find a new pair of brackets in the file, and since there are none, -1 will be returned everytime - causing the program to loop through the same line of text over and over again.
+
+---
+
+I hope this was a good explaination of the symptoms and bugs produced by these  inputs. That is all for this lab report. I hope you enjoyed reading and I will see you very soon!
