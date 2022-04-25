@@ -3,7 +3,7 @@ Greetings. Welcome back to another lab report by your resident coder, Erick Fent
 
 So, first of all, our group had some trouble initially trying to debug the errors produced by our test inputs, so were stumped as to what sort of changes to make to the "MarkdownParser" program we were given. Eventually, we were able to resolve all of the bugs we were experiencing with one simple and effective fix:
 
-![image1](Lab_Report_2_Images\code_fix1.png)
+![image1](Lab_Report_2_Images\code_fix1.PNG)
 
 We split up our markdown file into an array of strings (using new lines as a delimiter) and used a conditional statement on each element to see if any open parenthesis were present in the element. If they were, then we searched for the open parenthesis using the "indexOf();" command, and searched for the closed parenthesis by returning the character present at the end of the line, which was the closing parenthesis (assuming that each link was followed by a new line). This change fixed the issues we were having with our input files; though this  change was the only fix we comitted to our respository, so there are no other screenshots to report our code differences.
 
