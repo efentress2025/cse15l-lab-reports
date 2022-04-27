@@ -27,4 +27,21 @@ This input caused the program to produce a symptom in the form of an "OutOfMemor
 
 ---
 
+***UPDATE:***
+
+In the process of further testing the program, I ran into some errors that required me to make changes to the code:
+
+![image4](Lab_Report_2_Images\code_fix2.PNG)
+
+While the code was executing fine on my lab partners' MacOS coding software, I was encountering bugs on my windows implementation, so I made some changes to make sure I produced the same results on both OSs. What I did was add conditional statements that checked whether the current string "s" was the last line in the "lines" array, since my program did not format the links correctly if it was. The other additions to the code have to do with my next failure-inducing input: 
+
+[**test-file5.md**](https://github.com/notweezer123/markdown-parser/blob/main/test-file5.md)
+
+
+![image5](Lab_Report_2_Images\test_file5_error.PNG)
+
+This input produced a symptom in the form of an array with a link containing unnecessary white spaces. This incorrect output was caused by a bug in the program where a substring of everything within the parenthesis - white space or otherwise - would be created. To rectify this, I used the "replaceAll()" command to get rid of the white spaces in the substring.
+
+---
+
 I hope this was a good explaination of the symptoms and bugs produced by these  inputs. That is all for this lab report. I hope you enjoyed reading and I will see you very soon!
