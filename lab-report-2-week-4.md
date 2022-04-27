@@ -44,4 +44,4 @@ This input produced a symptom in the form of an array with a link containing unn
 
 ---
 
-I hope this was a good explaination of the symptoms and bugs produced by these  inputs. That is all for this lab report. I hope you enjoyed reading and I will see you very soon!
+I hope this was a good explaination of the symptoms and bugs produced by these inputs. That is all for this lab report. I hope you enjoyed reading and I will see you very soon!
