@@ -5,15 +5,15 @@ Hello, once again, everyone. Welcome back to another lab  report by Erick Fentre
 
 **1. Streamlining ssh Configuration**
 
-In order to log into the "ieng6" server without having to append my username to the end of the "``ssh ieng6@[username]``" command, I made a "config" file in my local ".ssh" directory with information about the host I want to connect to, my login credentials, and my login keygen file.
+In order to log into the "ieng6" server without having to append my username to the end of the "``ssh ieng6@[username]``" command, I made a "config" file in my local ".ssh" directory with information about the host I want to connect to, my login credentials, and my login keygen file:
 
 ![image1](Lab_Report_3_Images\configFile.PNG)
 
-After making this file, I am able to login to the "ieng6" server effortlessly.
+After making this file, I am able to login to the "ieng6" server effortlessly:
 
 ![image2](Lab_Report_3_Images\sshLoginNoUser.PNG)
 
-To demonstrate this further, here is a ``scp`` command done into the "ieng6" server with no credentials required.
+To demonstrate this further, here is a ``scp`` command done into the "ieng6" server with no credentials required:
 
 ![image3](Lab_Report_3_Images\scpWithConfig.PNG)
 
@@ -24,9 +24,11 @@ To demonstrate this further, here is a ``scp`` command done into the "ieng6" ser
 In order to push changes from the "ieng6" repository to the origin repository, I generated a public and private key pair within the ieng6 server and connected it to my Github account:
 
 *Public key*
+
 ![Image4](Lab_Report_3_Images\pubGithubKey.PNG)
 
 *Private key (id_rsa_github)*
+
 ![Image5](Lab_Report_3_Images\pubPrivieng6Key.PNG)
 
 After making this connection, I was able to push committed changes directly from within the ieng6 server to the origin:
@@ -39,7 +41,7 @@ After making this connection, I was able to push committed changes directly from
 
 **3. Copy whole directories with scp -r**
 
-By utilizing the command ``scp -r``, which stands for "secure copy recursive", I am able to copy all of the files within a specified directory within having to tediously copy each and every one of them with single commands.
+By utilizing the command ``scp -r``, which stands for "secure copy recursive", I am able to copy all of the files within a specified directory without having to tediously copy each and every one of them with single commands:
 
 ![image7](Lab_Report_3_Images\copyLine.PNG)
 
