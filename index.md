@@ -29,3 +29,5 @@ Fruits are very diverse.
 [Lab Report 2](https://notweezer123.github.io/cse15l-lab-reports/lab-report-2-week-4)
 
 [Lab Report 3](https://notweezer123.github.io/cse15l-lab-reports/lab-report-3-week-6)
+
+[Lab Report 4](https://notweezer123.github.io/cse15l-lab-reports/lab-report-4-week-8)
