@@ -30,7 +30,7 @@ Executing this test on my peers' implementation caused this error:
 
 ![test1ErrorPeerImp](Lab_Report_4_Images\test1ErrorPeerImp.png)
 
-In regards to making my implementation work for tests like this that have code with backticks, I could check to see if the index before an open bracket contains a backtick (if so, it doesn't include a link), and also I could create a while-loop within my code that decrements backwards starting from the last index of the current line I am parsing. The code will check if the current index contains a closed parenthesis character; if it does, execute the rest of the function as normal; if not, skip to the next line of the file. I will also include a “replace()” method call that will replace any backtick characters in my “stringToAdd” with empty strings.
+In regards to making my implementation work for tests like this that have code with backticks, I could check to see if the index before or after an open bracket contains a backtick (if so, don't include its link), and also I could create a while-loop within my code that decrements backwards starting from the last index of the current line I am parsing. The code will check if the current index contains a closed parenthesis character; if it does, execute the rest of the function as normal; if not, skip to the next line of the file. I will also include a “replace()” method call that will replace any backtick characters in my “stringToAdd” with empty strings.
 
 ---
 **snippet-2.md**
@@ -52,7 +52,7 @@ Executing this test on my peers' implementation caused this error:
 
 ![test2ErrorPeerImp](Lab_Report_4_Images\test2ErrorPeerImp.png)
 
-To make my implementation work for files that have nested parentheses, brackets, etc., I could simply add some replace() method calls that replaces these characters in my “stringToAdd” with empty strings. Also, to make sure my program doesn't grab a link that is right after a nested link in brackets, I could check to see if there is a closed parenthesis located two indexes before a link's open parenthesis. If there are, this link is not valid.
+To make my implementation work for files that have nested parentheses, brackets, etc., I could simply add some replace() method calls that replaces these characters in my “stringToAdd” with empty strings. Also, to make sure my program doesn't grab a link that is right after a nested link in brackets, I could check to see if there is a closed parenthesis located two indexes before a link's open parenthesis. If there is, this link is not valid.
 
 ---
 **snippet-3.md**
