@@ -16,7 +16,7 @@ As I stated in the introduction, for each of these implementations I will be run
 The first test file I have contains several links with backticks surrounding them:
 
 ![image1](Lab_Report_4_Images\snippet-1.PNG)
-![image1Test](Lab_Report_4_Images\snip1Test.png)
+![image1Test](Lab_Report_4_Images\snip1Test.PNG)
 
 This is the expected output:
 
