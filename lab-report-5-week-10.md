@@ -25,7 +25,7 @@ The second inconsistency I wanted to investigate was found within the test file 
 
 ![expected2](Lab_Report_5_Images\expect2.png)
 
-But instead has this output within the two implementations:
+But instead has this output within my implementation:
 
 ![diff2](Lab_Report_5_Images\diff2.png)
 
