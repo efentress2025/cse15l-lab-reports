@@ -1,14 +1,14 @@
 # Greetings!
-## Hello!
+## Various Syntax Demonstrations Are Presented Here:
 *How are you doing?*
 
 **The weather is hot outside.**
 
-Anyways, [Apples!](https://en.wikipedia.org/wiki/Apple)
+A particularly good fruit is an [apple](https://en.wikipedia.org/wiki/Apple)
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Alice_%28apple%29.jpg/180px-Alice_%28apple%29.jpg)
 
->Apples are so good. They are:
+>Apples are so good because they are:
 * Red
 * Tasty
 * Delicious
