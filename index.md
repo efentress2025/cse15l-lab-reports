@@ -24,12 +24,12 @@ Apples and Oranges are `fruits`
 ```
 Fruits are very diverse.
 ```
-[Lab Report 1](https://notweezer123.github.io/cse15l-lab-reports/lab-report-1-week-2)
+[Lab Report 1](https://efentress2025.github.io/cse15l-lab-reports/lab-report-1-week-2)
 
-[Lab Report 2](https://notweezer123.github.io/cse15l-lab-reports/lab-report-2-week-4)
+[Lab Report 2](https://efentress2025.github.io/cse15l-lab-reports/lab-report-2-week-4)
 
-[Lab Report 3](https://notweezer123.github.io/cse15l-lab-reports/lab-report-3-week-6)
+[Lab Report 3](https://efentress2025.github.io/cse15l-lab-reports/lab-report-3-week-6)
 
-[Lab Report 4](https://notweezer123.github.io/cse15l-lab-reports/lab-report-4-week-8)
+[Lab Report 4](https://efentress2025.github.io/cse15l-lab-reports/lab-report-4-week-8)
 
-[Lab Report 5](https://notweezer123.github.io/cse15l-lab-reports/lab-report-5-week-10)
+[Lab Report 5](https://efentress2025.github.io/cse15l-lab-reports/lab-report-5-week-10)
